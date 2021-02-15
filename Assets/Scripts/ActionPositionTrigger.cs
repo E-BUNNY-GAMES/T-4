@@ -14,7 +14,13 @@ namespace DefaultNamespace
         
         private void OnTriggerEnter(Collider other)
         {
-            rotateEvent.Invoke(endRotatePosition);
+            string tag = other.tag;
+
+            if (tag.Equals("MainCamera"))
+            {
+                rotateEvent.Invoke(endRotatePosition);    
+            }
+            
         }
     }
 

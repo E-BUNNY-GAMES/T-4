@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 
@@ -11,6 +12,8 @@ namespace DefaultNamespace
         public float destroyRadius;
         public DestroyObj destroyObj;
 
+        public UnityEvent celClickEvent;
+        
         private SpriteRenderer _spriteRenderer;
 
         private void Awake()
@@ -21,6 +24,8 @@ namespace DefaultNamespace
 
         public void OnPointerClick(PointerEventData eventData)
         {
+            celClickEvent.Invoke();
+            
             destroyObj.Activate();
             sphereCollider.radius = destroyRadius;
             sphereCollider.center = Vector3.forward * destroyRadius;

@@ -63,7 +63,9 @@
             <e p="ShakeController.cs" t="Include" />
           </e>
           <e p="Cel" t="Include">
+            <e p="CelCollisionListener.cs" t="Include" />
             <e p="CelController.cs" t="Include" />
+            <e p="CelRandomizer.cs" t="Include" />
           </e>
           <e p="DestroyFragment.cs" t="Include" />
           <e p="DestroyObj.cs" t="Include" />
