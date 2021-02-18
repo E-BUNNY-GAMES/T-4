@@ -1,4 +1,5 @@
 using DefaultNamespace.Monster;
+using DG.Tweening;
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -8,17 +9,40 @@ namespace DefaultNamespace
         [SerializeField] private MonsterHand leftHand;
         [SerializeField] private MonsterHand rightHand;
 
+        
+        private bool _lastLeft;
 
-        public void ActivateHand()
+        public void ActivateHand(bool left)
         {
-            leftHand.enabled = true;
-            rightHand.enabled = true;
+            _lastLeft = left;
+            
+            if (left)
+            {
+                leftHand.enabled = true;
+                leftHand.transform.DOLocalMoveZ(leftHand.transform.localPosition.z + 2f,.5f);
+            }
+            else
+            {
+                rightHand.transform.DOLocalMoveZ(rightHand.transform.localPosition.z + 2f,.5f);
+                rightHand.enabled = true;
+            }
+            
+            
         }
 
         public void DestroyHand()
         {
-            leftHand.enabled = false;
-            rightHand.enabled = false;
+            if (_lastLeft)
+            {
+                leftHand.enabled = false;
+                leftHand.transform.DOLocalMoveZ(leftHand.transform.localPosition.z - 2f,.5f);    
+            }
+            else
+            {
+                rightHand.enabled = false;
+                rightHand.transform.DOLocalMoveZ(rightHand.transform.localPosition.z - 2f,.5f);    
+            }
+            
         }
 
     }
