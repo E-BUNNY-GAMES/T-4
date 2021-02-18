@@ -6,7 +6,9 @@ namespace DefaultNamespace
     public class RotateController : MonoBehaviour
     {
         public float rotateDuration;
-
+        public HandsController handsController; 
+            
+            
         private Vector3 _startRotatePosition;
 
         
@@ -25,6 +27,7 @@ namespace DefaultNamespace
 
         public void RotateToDefault()
         {
+            handsController.DestroyHand();
             transform.DORotate(_startRotatePosition, rotateDuration);
         }
 

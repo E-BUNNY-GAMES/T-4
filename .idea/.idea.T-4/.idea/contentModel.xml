@@ -222,6 +222,7 @@
           </e>
           <e p="DestroyFragment.cs" t="Include" />
           <e p="DestroyObj.cs" t="Include" />
+          <e p="HandsController.cs" t="Include" />
           <e p="House" t="Include">
             <e p="FullHouseCollisionListener.cs" t="Include" />
           </e>

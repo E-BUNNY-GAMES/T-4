@@ -6,6 +6,8 @@ namespace DefaultNamespace
     public class RayCastController : MonoBehaviour
     {
         public Transform point;    
+        
+        
         private void LateUpdate()
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -13,7 +15,12 @@ namespace DefaultNamespace
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
             {
-                point.position = hit.point;
+              
+                if (hit.distance <= 50)
+                {
+                    point.position = hit.point;    
+                }
+                
             }
         }
     }
