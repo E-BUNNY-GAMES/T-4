@@ -6,20 +6,30 @@ namespace DefaultNamespace
 {
     public class CameraTriggerListener : MonoBehaviour
     {
+        
         public ShakeController shakeController;
         public RotateController rotateController;
         public MoveObj moveObj;
-
+        public SphereCollider destroySphere;
+        
+        
         public float timer;
         
         
         
         private void OnTriggerEnter(Collider other)
         {
-            shakeController.Stop();
-            moveObj.Stop();
 
-            StartCoroutine(Timer());
+            string tag = other.tag;
+            if (tag.Equals("action"))
+            {
+                shakeController.Stop();
+                moveObj.Stop();
+                destroySphere.enabled = true;
+
+                StartCoroutine(Timer());                
+            }
+
         }
 
         IEnumerator Timer()
@@ -29,7 +39,9 @@ namespace DefaultNamespace
             moveObj.Activate();
             shakeController.Activate();
             rotateController.RotateToDefault();
-            
+
+            destroySphere.enabled = false;
+
         }
     }
 }

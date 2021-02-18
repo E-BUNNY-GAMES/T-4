@@ -13,12 +13,24 @@ namespace DefaultNamespace
             _rb = GetComponent<Rigidbody>();
             _meshCollider = GetComponent<MeshCollider>();
         }
+        
+        private void OnTriggerEnter(Collider other)
+        {
+            string tag = other.tag;
+            if (tag.Equals("Destroy bal"))
+            {
+                Debug.Log("enter fragment");
+                Activate();    
+            }
+            
+        }
 
-        public void Activate()
+        private void Activate()
         {
             _rb.isKinematic = false;
             _meshCollider.isTrigger = false;
         }
 
+        
     }
 }

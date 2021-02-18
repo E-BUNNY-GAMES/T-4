@@ -14,4 +14,5 @@ public class DestroyObj : MonoBehaviour
         fullObj.SetActive(false);
         destroyObj.SetActive(true);
     }
+    
 }
