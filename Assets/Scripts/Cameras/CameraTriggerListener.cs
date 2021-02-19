@@ -14,20 +14,25 @@ namespace DefaultNamespace
         
         
         public float timer;
-        
-        
-        
+
+
         private void OnTriggerEnter(Collider other)
         {
-
+         
             string tag = other.tag;
-            if (tag.Equals("action"))
+            if (tag.Equals("action") && transform.tag.Equals("MainCamera"))
             {
                 shakeController.Stop();
                 moveObj.Stop();
                 destroySphere.enabled = true;
 
                 StartCoroutine(Timer());                
+            }
+            else if(tag.Equals("finish action"))
+            {
+                shakeController.Stop();
+                moveObj.Stop();
+                destroySphere.enabled = true;
             }
 
         }
