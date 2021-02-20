@@ -10,10 +10,10 @@ namespace DefaultNamespace
         public ShakeController shakeController;
         public RotateController rotateController;
         public MoveObj moveObj;
-        public SphereCollider destroySphere;
-        
         
         public float timer;
+
+
 
 
         private void OnTriggerEnter(Collider other)
@@ -24,7 +24,6 @@ namespace DefaultNamespace
             {
                 shakeController.Stop();
                 moveObj.Stop();
-                destroySphere.enabled = true;
 
                 StartCoroutine(Timer());                
             }
@@ -32,7 +31,6 @@ namespace DefaultNamespace
             {
                 shakeController.Stop();
                 moveObj.Stop();
-                destroySphere.enabled = true;
             }
 
         }
@@ -44,9 +42,6 @@ namespace DefaultNamespace
             moveObj.Activate();
             shakeController.Activate();
             rotateController.RotateToDefault();
-
-            destroySphere.enabled = false;
-
         }
     }
 }

@@ -2,800 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564f6796-15d0-4d1a-b14c-9c2634515217" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Monster/Legs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Monster/Legs/LegsAnimationController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Monster/Legs/LegsAnimationController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Monster/Hands.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.T-4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.T-4/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.T-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.T-4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Documentation/LeanGuide.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Documentation/LeanGuide.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Fonts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Fonts/OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Fonts/OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Black.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Black.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Blue.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Blue.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Circuit.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Circuit.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Grey.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Grey.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Grid.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Grid.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Orange.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Orange.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Purple.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Purple.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Skybox.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Skybox.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/White.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/White.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Yellow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Materials/Yellow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Meshes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Meshes/RoundedCube.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Meshes/RoundedCube.obj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/Canvas.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/Canvas.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/Grid.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/Grid.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/InfoInUI.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/InfoInUI.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/InfoInWorld.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/InfoInWorld.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/Label.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/Label.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/RoundedCube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/RoundedCube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/Skybox.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Prefabs/Skybox.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Scripts/LeanLinkTo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Scripts/LeanLinkTo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Shaders.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Shaders/Alpha.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Shaders/Alpha.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Shaders/Object.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Shaders/Object.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Shaders/Skybox.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Shaders/Skybox.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Textures/Description.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Textures/Description.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Textures/Grid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Textures/Grid.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Textures/Heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Textures/Heart.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Textures/Left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Textures/Left.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Textures/Right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Examples/Textures/Right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/LeanCommon.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/LeanCommon.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Scripts/LeanHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Scripts/LeanHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Scripts/LeanInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Scripts/LeanInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Scripts/LeanInspector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Common/Scripts/LeanInspector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/READ ME.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/READ ME.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Documentation/Documentation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Documentation/Documentation.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/01 Finger Held.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/01 Finger Held.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/02    Spawn.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/02    Spawn.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/03 Finger Tap Expired.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/03 Finger Tap Expired.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/04    Rotate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/04    Rotate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/05 Multi Twist.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/05 Multi Twist.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/06    One Finger.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/06    One Finger.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/06b    Axis.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/06b    Axis.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/07 Multi Tap.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/07 Multi Tap.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/08 Translate Rigidbody.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/08 Translate Rigidbody.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/09    Under.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/09    Under.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/10 Translate Rigidbody2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/10 Translate Rigidbody2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/11    Under.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/11    Under.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/12 First Down &amp; Last Up.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/12 First Down &amp; Last Up.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/01 Orbit.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/01 Orbit.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/02    Zoom.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/02    Zoom.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/03       Wheel.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/03       Wheel.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/04       Relative.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/04       Relative.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/05    Auto Rotate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/05    Auto Rotate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/06    Dolly.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/06    Dolly.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/07       Collision.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/07       Collision.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/08    Center.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/08    Center.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/09    Move.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/09    Move.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/10       TopDown.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/10       TopDown.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/11    Swipe.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/11    Swipe.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/12 First Person.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/12 First Person.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/13    Move.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/13    Move.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/14    Tap Look.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/14    Tap Look.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/15 Freeflight.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/15 Freeflight.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/16    Rigidbody.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/16    Rigidbody.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/17    Object.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/17    Object.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/18 Sidescroll 2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/18 Sidescroll 2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/19    Zoom.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/19    Zoom.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/20       Constrain.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/20       Constrain.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/21       Rotate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/21       Rotate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/22          Map.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/22          Map.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/23 Sidescroll 3D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/23 Sidescroll 3D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/24    Zoom.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/24    Zoom.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/25       Rotate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/25       Rotate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/26 Top Down.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/26 Top Down.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/27    SwipeMove.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/27    SwipeMove.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/28    SwipeMoveClamp.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Camera/28    SwipeMoveClamp.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/01 Finger Down Canvas.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/01 Finger Down Canvas.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/02    Move.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/02    Move.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/03    Swipe Move.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/03    Swipe Move.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/04 Multi Set Canvas.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/04 Multi Set Canvas.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/05    Rotate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/05    Rotate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/06       DPad.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/06       DPad.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/07    Move.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/07    Move.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/08    Spawn.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Canvas/08    Spawn.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/01 Constrain Scale.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/01 Constrain Scale.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/02 Constrain To Box.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/02 Constrain To Box.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/03 Constrain To Axis.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/03 Constrain To Axis.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/04 Constrain To Collider.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/04 Constrain To Collider.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/05 Constrain To Colliders.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/05 Constrain To Colliders.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/06 Constrain To Direction.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/06 Constrain To Direction.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/07 Constrain Rigidbody.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/07 Constrain Rigidbody.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/08 Constrain Rigidbody2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Constrain/08 Constrain Rigidbody2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/01 Dial 3D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/01 Dial 3D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/02    Clamp.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/02    Clamp.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/03    Lever.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/03    Lever.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/04    Trigger.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/04    Trigger.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/05    UI.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/05    UI.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/06 Rotate To Position.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/06 Rotate To Position.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/07    Under.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Dial/07    Under.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/01 Drag.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/01 Drag.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/02    Turn 2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/02    Turn 2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/03       Reset.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/03       Reset.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/04 DragTurn1D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/04 DragTurn1D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/05       Step.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/05       Step.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/06 DragDoors.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/06 DragDoors.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/07 DragMove1D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/07 DragMove1D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/08 DragMove2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/08 DragMove2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/09    Threshold.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/09    Threshold.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/10 DragAlongPath.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/10 DragAlongPath.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/11    Under.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/11    Under.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/12    Smooth.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/12    Smooth.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/13 DragUnderAlongPlane.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/13 DragUnderAlongPlane.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/14    Snap.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/14    Snap.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/29 Pull.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/29 Pull.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/30    Turn 2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/30    Turn 2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/DragMeshColor.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/DragMeshColor.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/DragMeshDeform.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/DragMeshDeform.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/DropDestroy.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/DropDestroy.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/DropDestroyCount.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Drag/DropDestroyCount.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/01 Chase 3D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/01 Chase 3D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/02    Under.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/02    Under.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/03 Chase Rigidbody.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/03 Chase Rigidbody.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/04    Plane.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/04    Plane.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/05 Chase Rigidbody2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/05 Chase Rigidbody2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/06 FollowFinger.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/06 FollowFinger.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/07    Released.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/07    Released.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/08    Rotation.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/08    Rotation.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/09 FollowFingerLine.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Follow/09 FollowFingerLine.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/GrabSpinThrow.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/GrabSpinThrow.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/01 Line.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/01 Line.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/02    Power.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/02    Power.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/03    Clamp.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/03    Clamp.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/04    SpawnThrow 3D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/04    SpawnThrow 3D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/05    SpawnThrow 2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/05    SpawnThrow 2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/06 Target 3D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/06 Target 3D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/07    Throw.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/07    Throw.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/08    Under.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/08    Under.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/09 Target 2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/09 Target 2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/10    Throw.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/10    Throw.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/11       Rotate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/11       Rotate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/12    Under.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/12    Under.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/Pong Launch.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Line/Pong Launch.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/ButtonCircle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/ButtonCircle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Canvas+.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Canvas+.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Dotted 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Dotted 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Icon Capsule.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Icon Capsule.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Icon Cube.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Icon Cube.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Icon Sphere.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Icon Sphere.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Knob.DAE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Knob.DAE.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Power Indicator.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Power Indicator.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Power Indicator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Power Indicator.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Power Indicator.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Power Indicator.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Selectable Block.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/Selectable Block.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/SelectionBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/SelectionBox.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/SelectionDashesH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/SelectionDashesH.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/SelectionDashesV.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Media/SelectionDashesV.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Pong.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Pong.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/PressureScale.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/PressureScale.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/ReplayFinger.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/ReplayFinger.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Scripts/LeanRandomEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Scripts/LeanRandomEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/01 Select 2D+3D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/01 Select 2D+3D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/02 Select 2D+3D+UI.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/02 Select 2D+3D+UI.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/03 Reselect Count.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/03 Reselect Count.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/04 SelectedTime.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/04 SelectedTime.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/05    Action.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/05    Action.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/06 DragSelect.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/06 DragSelect.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/07    TransformRelative.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/07    TransformRelative.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/08    WithinRange.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/08    WithinRange.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/09 SelectionBox.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/09 SelectionBox.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/10    Dotted.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/10    Dotted.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/11 Self Self.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Selection/11 Self Self.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Shape.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Shape/01 ShapeDetector.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Shape/01 ShapeDetector.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Shape/02    Loop.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Shape/02    Loop.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Shape/03    Direction.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Shape/03    Direction.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Shape/04    Partial.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Shape/04    Partial.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Slingshot.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Slingshot.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/SwapBlocks2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/SwapBlocks2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/01 Finger Swipe.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/01 Finger Swipe.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/02    Swap.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/02    Swap.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/03    Move.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/03    Move.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/04    Turn.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/04    Turn.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/05    Translate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/05    Translate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/06       Under.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/06       Under.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/07    Translate Rigidbody.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/07    Translate Rigidbody.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/08       Under.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/08       Under.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/09    TranslateRigidbody2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/09    TranslateRigidbody2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/10       Under.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/10       Under.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/11 Finger Flick.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/11 Finger Flick.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/12    Rotation.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/12    Rotation.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/13    Multiple.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/13    Multiple.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/14 Multi Swipe.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/Swipe/14 Multi Swipe.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/TransformRevert.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/TransformRevert.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/TransformToggle.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Examples/TransformToggle.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/GUIDE.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/GUIDE.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/LeanTouchPlus.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/LeanTouchPlus.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/IDropHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/IDropHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanAnySelected.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanAnySelected.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanChase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanChase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanChaseRigidbody.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanChaseRigidbody.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanChaseRigidbody2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanChaseRigidbody2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainLocalPosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainLocalPosition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainScale.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainScale.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToAxis.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToAxis.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToBox.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToBox.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToCollider.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToCollider.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToColliders.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToColliders.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToDirection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToDirection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToOrthographic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanConstrainToOrthographic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragColorMesh.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragColorMesh.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragDeformMesh.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragDeformMesh.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragLine.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragLine.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragSelect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragSelect.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragTranslateAlong.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragTranslateAlong.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragTranslateRigidbody.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragTranslateRigidbody.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragTranslateRigidbody2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDragTranslateRigidbody2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDrop.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDrop.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDropCount.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanDropCount.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFingerDownCanvas.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFingerDownCanvas.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFingerFlick.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFingerFlick.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFingerHeld.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFingerHeld.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFingerTapExpired.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFingerTapExpired.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFirstDown.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFirstDown.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFollow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanFollow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanGestureToggle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanGestureToggle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanLastUp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanLastUp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMaintainDistance.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMaintainDistance.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualRotate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualRotate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualSwipe.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualSwipe.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualTranslate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualTranslate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualTranslateRigidbody.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualTranslateRigidbody.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualTranslateRigidbody2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualTranslateRigidbody2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualVelocity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualVelocity.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualVelocity2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanManualVelocity2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMouseWheel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMouseWheel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiPinch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiPinch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiPull.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiPull.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiSwipe.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiSwipe.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiTap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiTap.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiTwist.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiTwist.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiUpdate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiUpdate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiUpdateCanvas.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanMultiUpdateCanvas.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanPinchCamera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanPinchCamera.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanPitchYaw.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanPitchYaw.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanPitchYawAutoRotate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanPitchYawAutoRotate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanPongBall.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanPongBall.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanReplayFinger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanReplayFinger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanRevertTransform.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanRevertTransform.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanRotateToPosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanRotateToPosition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanRotateToRigidbody2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanRotateToRigidbody2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectSelf.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectSelf.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableBlock.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableBlock.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableCount.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableCount.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableDial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableDial.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableDragTorque.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableDragTorque.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableDrop.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableDrop.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectablePressureScale.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectablePressureScale.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableSelected.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableSelected.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableTime.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectableTime.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectionBox.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSelectionBox.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanShape.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanShape.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanShapeDetector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanShapeDetector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSpawnBetween.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSpawnBetween.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSpawnWithFinger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSpawnWithFinger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSwap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSwap.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSwipeEdge.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanSwipeEdge.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanThresholdDelta.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanThresholdDelta.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanThresholdPosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanThresholdPosition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanTwistCamera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch+/Scripts/LeanTwistCamera.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Documentation/Documentation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Documentation/Documentation.html.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/01 Finger Down.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/01 Finger Down.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/02 Finger Up.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/02 Finger Up.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/03 Finger Swipe.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/03 Finger Swipe.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/04    Rotation.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/04    Rotation.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/05    Direction 4.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/05    Direction 4.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/06    Direction 8.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/06    Direction 8.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/07 Finger Tap.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/07 Finger Tap.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/08    Spawn.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/08    Spawn.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/09       Block.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/09       Block.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/10       Double.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/10       Double.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/11 Finger Old.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/11 Finger Old.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/12 Transform 3D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/12 Transform 3D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/13    Relative.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/13    Relative.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/14 Transform 2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/14 Transform 2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/15    Relative.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/15    Relative.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/16 Transform UI.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/16 Transform UI.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/17    Relative.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/17    Relative.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/18 Select 3D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/18 Select 3D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/19    Transform.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/19    Transform.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/20    Transform Relative.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/20    Transform Relative.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/21 Select 2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/21 Select 2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/22    Transform.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/22    Transform.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/23    Transform Relative.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/23    Transform Relative.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/24    Destroy.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/24    Destroy.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/25 Select UI.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/25 Select UI.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/26    Transform.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/26    Transform.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/27    Transform Relative.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/27    Transform Relative.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/28 Press 3D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/28 Press 3D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/29    Transform.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/29    Transform.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/30    Isolate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/30    Isolate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/31 Press 2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/31 Press 2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/32    Transform.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/32    Transform.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/33    Isolate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/33    Isolate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/34 Press UI.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/34 Press UI.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/35    Transform.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/35    Transform.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/36    Isolate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/36    Isolate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/37 Finger Trail.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/37 Finger Trail.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/LeanTouch+.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/LeanTouch+.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/ArrowCurve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/ArrowCurve.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/ArrowStraight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/ArrowStraight.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/ArrowTwist.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/ArrowTwist.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Ball.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Ball.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/BigLogo+.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/BigLogo+.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Box.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Canvas.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Canvas.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Circle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/FingerVisualization.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/FingerVisualization.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/GlowingDot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/GlowingDot.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/GlowingLine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/GlowingLine.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/GlowingTrail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/GlowingTrail.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Line.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Line.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Logo+.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Logo+.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Plus.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Trail.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Media/Trail.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanDestroy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanDestroy.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanDragTrail.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanDragTrail.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanInfoText.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanInfoText.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanPulseScale.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanPulseScale.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanSpawn.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanSpawn.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanTouchEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Scripts/LeanTouchEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Sidescroll2D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Sidescroll2D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Sidescroll3D.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/Sidescroll3D.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/TouchEvents.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/TouchEvents.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/TwistRotateCustomAxis.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Examples/TwistRotateCustomAxis.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanDragCamera.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanDragCamera.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanDragTranslate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanDragTranslate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerDown.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerDown.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerFilter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerFilter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerOld.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerOld.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerSwipe.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerSwipe.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerTap.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerTap.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerUp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerUp.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerUpdate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanFingerUpdate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanPath.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanPath.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanPinchScale.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanPinchScale.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanPlane.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanPlane.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanRoll.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanRoll.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanScreenDepth.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanScreenDepth.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelect.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectableBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectableBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectableGraphicColor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectableGraphicColor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectableRendererColor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectableRendererColor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectableSpriteRendererColor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSelectableSpriteRendererColor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSwipeBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanSwipeBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanTwistRotate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanTwistRotate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanTwistRotateAxis.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Extras/LeanTwistRotateAxis.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/GUIDE.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/GUIDE.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/LeanTouch.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/LeanTouch.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Scripts/LeanFinger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Scripts/LeanFinger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Scripts/LeanGesture.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Scripts/LeanGesture.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Scripts/LeanSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Scripts/LeanSnapshot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Scripts/LeanTouch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Lean/Touch/Scripts/LeanTouch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pref/Big House.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pref/Big House.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pref/LeanTouch.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pref/LeanTouch.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pref/New House.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pref/New House.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pref/Swipe = Translate.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pref/Swipe = Translate.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pref/big new house.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pref/big new house.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pref/house parts/destroy/House_1_bot_cell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pref/house parts/destroy/House_1_bot_cell.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pref/house parts/destroy/House_1_mid_cell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pref/house parts/destroy/House_1_mid_cell.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pref/house parts/destroy/House_1_top_cell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pref/house parts/destroy/House_1_top_cell.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pref/small new house.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Pref/small new house.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cameras/CameraTriggerListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cameras/CameraTriggerListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cameras/RotateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cameras/RotateController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HandsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HandsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HandsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HandsController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandsController.cs.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -805,21 +17,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsController.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandsController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding>
-                <marker date="1613768919375" expanded="false" signature="6:69" ph="..." />
-                <marker date="1613768919375" expanded="true" signature="97:1283" ph="{...}" />
-                <marker date="1613768919375" expanded="true" signature="148:1281" ph="{...}" />
-                <marker date="1613768919375" expanded="true" signature="353:801" ph="{...}" />
-                <marker date="1613768919375" expanded="true" signature="428:593" ph="{...}" />
-                <marker date="1613768919375" expanded="true" signature="610:778" ph="{...}" />
-                <marker date="1613768919375" expanded="true" signature="854:1274" ph="{...}" />
-                <marker date="1613768919375" expanded="true" signature="891:1061" ph="{...}" />
-                <marker date="1613768919375" expanded="true" signature="1078:1251" ph="{...}" />
+                <marker date="1613826046346" expanded="false" signature="6:107" ph="..." />
+                <marker date="1613826046346" expanded="true" signature="135:1401" ph="{...}" />
+                <marker date="1613826046346" expanded="true" signature="186:1399" ph="{...}" />
+                <marker date="1613826046346" expanded="true" signature="201:325" ph="/* [SerializeField] private MonsterHand leftHand; ... */" />
+                <marker date="1613826046346" expanded="true" signature="567:1070" ph="{...}" />
+                <marker date="1613826046346" expanded="true" signature="630:709" ph="{...}" />
+                <marker date="1613826046346" expanded="true" signature="726:806" ph="{...}" />
+                <marker date="1613826046346" expanded="true" signature="864:1059" ph="/* if (left) ... */" />
+                <marker date="1613826046346" expanded="true" signature="1123:1392" ph="{...}" />
+                <marker date="1613826046346" expanded="true" signature="1159:1369" ph="/* if (_lastLeft) ... */" />
               </folding>
             </state>
           </provider>
@@ -828,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monster/Legs/LegsAnimationController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="150">
               <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding>
                 <marker date="1613755398523" expanded="true" signature="59:427" ph="{...}" />
@@ -843,16 +56,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cameras/CameraTriggerListener.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            <state relative-caret-position="630">
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
               <folding>
-                <marker date="1613768038068" expanded="false" signature="6:44" ph="..." />
-                <marker date="1613768038068" expanded="true" signature="73:1249" ph="{...}" />
-                <marker date="1613768038068" expanded="true" signature="130:1247" ph="{...}" />
-                <marker date="1613768038068" expanded="true" signature="420:962" ph="{...}" />
-                <marker date="1613768038068" expanded="true" signature="552:756" ph="{...}" />
-                <marker date="1613768038068" expanded="true" signature="805:951" ph="{...}" />
-                <marker date="1613768038068" expanded="true" signature="991:1241" ph="{...}" />
+                <marker date="1613825507963" expanded="false" signature="6:44" ph="..." />
+                <marker date="1613825507963" expanded="true" signature="73:1060" ph="{...}" />
+                <marker date="1613825507963" expanded="true" signature="130:1058" ph="{...}" />
+                <marker date="1613825507963" expanded="true" signature="368:818" ph="{...}" />
+                <marker date="1613825507963" expanded="true" signature="500:658" ph="{...}" />
+                <marker date="1613825507963" expanded="true" signature="707:807" ph="{...}" />
+                <marker date="1613825507963" expanded="true" signature="847:1052" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monster/MonsterHand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding>
+                <marker date="1613560384009" expanded="true" signature="54:263" ph="{...}" />
+                <marker date="1613560384009" expanded="true" signature="101:261" ph="{...}" />
+                <marker date="1613560384009" expanded="true" signature="193:255" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandFight.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <marker date="1613826046340" expanded="true" signature="60:155" ph="{...}" />
+                <marker date="1613826046340" expanded="true" signature="105:153" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -861,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyObj.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="165">
               <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <marker date="1613574537071" expanded="false" signature="6:78" ph="..." />
@@ -875,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/House/FullHouseCollisionListener.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="150">
               <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <marker date="1613575578562" expanded="false" signature="6:44" ph="..." />
@@ -890,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ActionPositionTrigger.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="165">
               <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <marker date="1613422148464" expanded="false" signature="6:58" ph="..." />
@@ -906,10 +146,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cameras/RotateController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="405">
               <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
-                <marker date="1613768164663" expanded="true" signature="6:74" ph="..." />
+                <marker date="1613768164663" expanded="false" signature="6:74" ph="..." />
                 <marker date="1613768164663" expanded="true" signature="102:991" ph="{...}" />
                 <marker date="1613768164663" expanded="true" signature="154:989" ph="{...}" />
                 <marker date="1613768164663" expanded="true" signature="438:525" ph="{...}" />
@@ -923,7 +163,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyFragment.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="285">
               <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <marker date="1613603569560" expanded="true" signature="46:763" ph="{...}" />
@@ -946,9 +186,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveObj.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActionPositionTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DestroyObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandFight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monster/MonsterHand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/House/FullHouseCollisionListener.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cameras/ShakeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Y-1/Library/PackageCache/com.unity.render-pipelines.universal@7.5.3/Runtime/ScriptableRendererData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cameras/CameraTriggerListener.cs" root0="FORCE_HIGHLIGHTING" />
@@ -980,16 +221,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Cel/CelRandomizer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monster.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monster/Hand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Monster/MonsterHand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cel/CelCollisionListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/House/FullHouseCollisionListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestroyFragment.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cameras/RayCastController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Monster/Legs/LegsAnimationController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cameras/CameraTriggerListener.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Cameras/RotateController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Cameras/CameraTriggerListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monster/MonsterHand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandsController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandFight.cs" />
       </list>
     </option>
   </component>
@@ -1005,6 +248,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -1021,12 +268,6 @@
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-              <item name="Cameras" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
               <item name="Monster" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
@@ -1034,7 +275,7 @@
               <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
               <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
               <item name="Monster" type="1045f7f1:UnityExplorerNode" />
-              <item name="Legs" type="1045f7f1:UnityExplorerNode" />
+              <item name="Hands" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="Project" type="e068e287:UnityExplorerRootNode" />
@@ -1046,11 +287,7 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1103,12 +340,13 @@
       <workItem from="1613603067617" duration="3013000" />
       <workItem from="1613655759839" duration="4009000" />
       <workItem from="1613678009864" duration="1463000" />
-      <workItem from="1613737379827" duration="6861000" />
+      <workItem from="1613737379827" duration="6981000" />
+      <workItem from="1613825442144" duration="604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36110000" />
+    <option name="totallyTimeSpent" value="36834000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1123,7 +361,7 @@
     <frame x="-8" y="-8" width="1871" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13086693" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13197128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1131,7 +369,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.26583594" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26583594" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1176,10 +414,10 @@
           <line>21</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Cameras/CameraTriggerListener.cs" initialLine="21">
             <startOffsets>
-              <option value="453" />
+              <option value="401" />
             </startOffsets>
             <endOffsets>
-              <option value="476" />
+              <option value="424" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
@@ -1212,18 +450,6 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monster.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cel/CelController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cel/CelCollisionListener.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monster/MonsterHand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <marker date="1613560384009" expanded="true" signature="54:263" ph="{...}" />
-            <marker date="1613560384009" expanded="true" signature="101:261" ph="{...}" />
-            <marker date="1613560384009" expanded="true" signature="193:255" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cameras/RayCastController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1255,9 +481,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Lean/READ ME.txt" />
+    <entry file="file://$PROJECT_DIR$/../Y-1/Assets/Plugins/FacebookSDK/Examples/Scripts/ConsoleBase.cs" />
+    <entry file="file://$PROJECT_DIR$/../Y-1/Library/PackageCache/com.unity.render-pipelines.universal@7.5.3/Runtime/ScriptableRendererData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monster/Legs/LegsAnimationController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <marker date="1613755398523" expanded="true" signature="59:427" ph="{...}" />
+            <marker date="1613755398523" expanded="true" signature="118:415" ph="{...}" />
+            <marker date="1613755398523" expanded="true" signature="231:295" ph="{...}" />
+            <marker date="1613755398523" expanded="true" signature="340:409" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1613574537071" expanded="false" signature="6:78" ph="..." />
+            <marker date="1613574537071" expanded="true" signature="119:309" ph="{...}" />
+            <marker date="1613574537071" expanded="true" signature="220:302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/House/FullHouseCollisionListener.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="150">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
             <marker date="1613575578562" expanded="false" signature="6:44" ph="..." />
@@ -1268,9 +528,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ActionPositionTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <marker date="1613422148464" expanded="false" signature="6:58" ph="..." />
+            <marker date="1613422148464" expanded="true" signature="87:591" ph="{...}" />
+            <marker date="1613422148464" expanded="true" signature="144:516" ph="{...}" />
+            <marker date="1613422148464" expanded="true" signature="311:510" ph="{...}" />
+            <marker date="1613422148464" expanded="true" signature="400:487" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cameras/RotateController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <marker date="1613768164663" expanded="false" signature="6:74" ph="..." />
+            <marker date="1613768164663" expanded="true" signature="102:991" ph="{...}" />
+            <marker date="1613768164663" expanded="true" signature="154:989" ph="{...}" />
+            <marker date="1613768164663" expanded="true" signature="438:525" ph="{...}" />
+            <marker date="1613768164663" expanded="true" signature="600:748" ph="{...}" />
+            <marker date="1613768164663" expanded="true" signature="787:982" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyFragment.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="285">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <marker date="1613603569560" expanded="true" signature="46:763" ph="{...}" />
@@ -1283,107 +572,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Lean/READ ME.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Y-1/Assets/Plugins/FacebookSDK/Examples/Scripts/ConsoleBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Y-1/Library/PackageCache/com.unity.render-pipelines.universal@7.5.3/Runtime/ScriptableRendererData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestroyObj.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <marker date="1613574537071" expanded="false" signature="6:78" ph="..." />
-            <marker date="1613574537071" expanded="true" signature="119:309" ph="{...}" />
-            <marker date="1613574537071" expanded="true" signature="220:302" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ActionPositionTrigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <marker date="1613422148464" expanded="false" signature="6:58" ph="..." />
-            <marker date="1613422148464" expanded="true" signature="87:591" ph="{...}" />
-            <marker date="1613422148464" expanded="true" signature="144:516" ph="{...}" />
-            <marker date="1613422148464" expanded="true" signature="311:510" ph="{...}" />
-            <marker date="1613422148464" expanded="true" signature="400:487" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monster/Legs/LegsAnimationController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <marker date="1613755398523" expanded="true" signature="59:427" ph="{...}" />
-            <marker date="1613755398523" expanded="true" signature="118:415" ph="{...}" />
-            <marker date="1613755398523" expanded="true" signature="231:295" ph="{...}" />
-            <marker date="1613755398523" expanded="true" signature="340:409" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cameras/CameraTriggerListener.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="630">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
           <folding>
-            <marker date="1613768038068" expanded="false" signature="6:44" ph="..." />
-            <marker date="1613768038068" expanded="true" signature="73:1249" ph="{...}" />
-            <marker date="1613768038068" expanded="true" signature="130:1247" ph="{...}" />
-            <marker date="1613768038068" expanded="true" signature="420:962" ph="{...}" />
-            <marker date="1613768038068" expanded="true" signature="552:756" ph="{...}" />
-            <marker date="1613768038068" expanded="true" signature="805:951" ph="{...}" />
-            <marker date="1613768038068" expanded="true" signature="991:1241" ph="{...}" />
+            <marker date="1613825507963" expanded="false" signature="6:44" ph="..." />
+            <marker date="1613825507963" expanded="true" signature="73:1060" ph="{...}" />
+            <marker date="1613825507963" expanded="true" signature="130:1058" ph="{...}" />
+            <marker date="1613825507963" expanded="true" signature="368:818" ph="{...}" />
+            <marker date="1613825507963" expanded="true" signature="500:658" ph="{...}" />
+            <marker date="1613825507963" expanded="true" signature="707:807" ph="{...}" />
+            <marker date="1613825507963" expanded="true" signature="847:1052" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Cameras/RotateController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monster/MonsterHand.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="90">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding>
-            <marker date="1613768164663" expanded="true" signature="6:74" ph="..." />
-            <marker date="1613768164663" expanded="true" signature="102:991" ph="{...}" />
-            <marker date="1613768164663" expanded="true" signature="154:989" ph="{...}" />
-            <marker date="1613768164663" expanded="true" signature="438:525" ph="{...}" />
-            <marker date="1613768164663" expanded="true" signature="600:748" ph="{...}" />
-            <marker date="1613768164663" expanded="true" signature="787:982" ph="{...}" />
+            <marker date="1613560384009" expanded="true" signature="54:263" ph="{...}" />
+            <marker date="1613560384009" expanded="true" signature="101:261" ph="{...}" />
+            <marker date="1613560384009" expanded="true" signature="193:255" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/HandsController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandsController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        <state relative-caret-position="150">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
-            <marker date="1613768919375" expanded="false" signature="6:69" ph="..." />
-            <marker date="1613768919375" expanded="true" signature="97:1283" ph="{...}" />
-            <marker date="1613768919375" expanded="true" signature="148:1281" ph="{...}" />
-            <marker date="1613768919375" expanded="true" signature="353:801" ph="{...}" />
-            <marker date="1613768919375" expanded="true" signature="428:593" ph="{...}" />
-            <marker date="1613768919375" expanded="true" signature="610:778" ph="{...}" />
-            <marker date="1613768919375" expanded="true" signature="854:1274" ph="{...}" />
-            <marker date="1613768919375" expanded="true" signature="891:1061" ph="{...}" />
-            <marker date="1613768919375" expanded="true" signature="1078:1251" ph="{...}" />
+            <marker date="1613826046346" expanded="false" signature="6:107" ph="..." />
+            <marker date="1613826046346" expanded="true" signature="135:1401" ph="{...}" />
+            <marker date="1613826046346" expanded="true" signature="186:1399" ph="{...}" />
+            <marker date="1613826046346" expanded="true" signature="201:325" ph="/* [SerializeField] private MonsterHand leftHand; ... */" />
+            <marker date="1613826046346" expanded="true" signature="567:1070" ph="{...}" />
+            <marker date="1613826046346" expanded="true" signature="630:709" ph="{...}" />
+            <marker date="1613826046346" expanded="true" signature="726:806" ph="{...}" />
+            <marker date="1613826046346" expanded="true" signature="864:1059" ph="/* if (left) ... */" />
+            <marker date="1613826046346" expanded="true" signature="1123:1392" ph="{...}" />
+            <marker date="1613826046346" expanded="true" signature="1159:1369" ph="/* if (_lastLeft) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandFight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <marker date="1613826046340" expanded="true" signature="60:155" ph="{...}" />
+            <marker date="1613826046340" expanded="true" signature="105:153" ph="{...}" />
           </folding>
         </state>
       </provider>
