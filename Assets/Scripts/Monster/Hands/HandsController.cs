@@ -1,17 +1,10 @@
-using DefaultNamespace.Monster;
 using DefaultNamespace.Monster.Hands;
-using DG.Tweening;
 using UnityEngine;
 
 namespace DefaultNamespace
 {
     public class HandsController : MonoBehaviour
     {
-        /*
-        [SerializeField] private MonsterHand leftHand;
-        [SerializeField] private MonsterHand rightHand;
-        */
-
         [SerializeField] private HandFight leftHandFight;
         [SerializeField] private HandFight rightHandFight;
 
@@ -31,25 +24,15 @@ namespace DefaultNamespace
             {
                 _currentHandFight = rightHandFight;
             }
-
-            //_currentHandFight
-            
-
-            /*
-            if (left)
-            {
-                leftHand.enabled = true;
-            }
-            else
-            {
-                rightHand.enabled = true;
-            }
-            */
-
         }
 
-        
-        
+
+        public void FightHand(string direction)
+        {
+            _currentHandFight.ActivateFight(direction);
+        }
+
+
         public void DestroyHand()
         {
             
