@@ -1,4 +1,5 @@
 using DefaultNamespace.Monster.Hands;
+using DG.Tweening;
 using UnityEngine;
 
 
@@ -20,24 +21,23 @@ namespace DefaultNamespace
         {
             _defaultRotation = transform.localRotation.eulerAngles;
             _defaultPosition = transform.localPosition;
-            
-            
-//            _currentHandAnimatorController = leftHandAnimatorController;
         }
         
         public void ActivateHand(bool left)
         {
-            transform.localPosition = new Vector3(0, _defaultPosition.y, 0);
-            //_lastLeft = left;
+            //transform.localPosition = new Vector3(0, _defaultPosition.y, 0);
+            transform.DOLocalMove(new Vector3(0.25f, _defaultPosition.y, 0), 1f);
 
             if (left)
             {
-                transform.localRotation = Quaternion.Euler(new Vector3(0,-90,0));
+                //transform.localRotation = Quaternion.Euler(new Vector3(0,-90,0));
+                transform.DOLocalRotate(new Vector3(0, -90f, 0), 1.5f);
                 _currentHandAnimatorController = leftHandAnimatorController;
             }
             else
             {
-                transform.localRotation = Quaternion.Euler(new Vector3(0,90,0));
+                //transform.localRotation = Quaternion.Euler(new Vector3(0,90,0));
+                transform.DOLocalRotate(new Vector3(0, 90f, 0), 1.5f);
                 _currentHandAnimatorController = rightHandAnimatorController;
             }
         }
@@ -50,15 +50,11 @@ namespace DefaultNamespace
                 case "up":
                     ChangeHand();
                     _currentHandAnimatorController.ActivateDownKick();
-//                    leftHandAnimatorController.ActivateDownKick();
-//                    rightHandAnimatorController.ActivateDownKick();
                     break;
                 
                 case "down":
                     ChangeHand();
                     _currentHandAnimatorController.ActivateUpKick();
-//                    leftHandAnimatorController.ActivateUpKick();
-//                    rightHandAnimatorController.ActivateUpKick();
                     break;
                 
                 case "left":
@@ -69,11 +65,6 @@ namespace DefaultNamespace
                     leftHandAnimatorController.ActivateFlankKick();
                     break;
             }
-            
-            
-            
-//            if(_currentHandFight)
-//                _currentHandFight.ActivateFight(direction);
         }
 
         private void ChangeHand()
@@ -93,6 +84,9 @@ namespace DefaultNamespace
 
         public void DestroyHand()
         {
+            rightHandAnimatorController.ActivateIdle();
+            leftHandAnimatorController.ActivateIdle();
+            
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
             transform.localPosition = _defaultPosition;
         }

@@ -255,7 +255,7 @@
           <e p="DestroyFragment.cs" t="Include" />
           <e p="DestroyObj.cs" t="Include" />
           <e p="House" t="Include">
-            <e p="FullHouseCollisionListener.cs" t="Include" />
+            <e p="FullHouseTriggerListener.cs" t="Include" />
           </e>
           <e p="Man" t="Include">
             <e p="Man.cs" t="Include" />
@@ -267,6 +267,7 @@
             </e>
             <e p="Legs" t="Include">
               <e p="LegsAnimationController.cs" t="Include" />
+              <e p="LegsController.cs" t="Include" />
             </e>
             <e p="MonsterHand.cs" t="Include" />
           </e>
@@ -274,6 +275,7 @@
           <e p="NavMesh" t="Include">
             <e p="NavmeshAgentController.cs" t="Include" />
           </e>
+          <e p="SelectBonus.cs" t="Include" />
           <e p="Tower" t="Include">
             <e p="Floor.cs" t="Include" />
             <e p="TowerController.cs" t="Include" />

@@ -8,6 +8,7 @@ TagManager:
   - Destroy bal
   - action
   - finish action
+  - leg zone
   layers:
   - Default
   - TransparentFX

@@ -14,6 +14,8 @@ namespace DefaultNamespace.Man
         
         private void OnTriggerEnter(Collider other)
         {
+            Debug.Log(other.name);
+            
             string tag = other.tag;
             if (tag.Equals("Destroy bal") && !_isEnter)
             {
@@ -26,7 +28,7 @@ namespace DefaultNamespace.Man
                 
 
                 transform.parent.gameObject.SetActive(false);
-                    //bodyPart.SetActive(false);
+                //bodyPart.SetActive(false);
             }
         }
     }
