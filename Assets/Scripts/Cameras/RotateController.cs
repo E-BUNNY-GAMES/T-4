@@ -31,7 +31,7 @@ namespace DefaultNamespace
 
         public void RotateToDefault()
         {
-             handsController.DestroyHand();
+            handsController.DestroyHand();
             legsAnimationController.ActivateMoveAnimation();
             transform.DORotate(_startRotatePosition, rotateDuration);
         }

@@ -13,14 +13,20 @@ namespace DefaultNamespace.Tower
         
         
         private int _currentCount;
+        private int _middleCurrentCount;
         private bool _isActivate;
         private bool _isAnimated;
         private Vector3 _defaultScale;
+
+        private ChangeTexture _changeTexture;
         
         private void Awake()
         {
             _currentCount = number * 3;
+            _middleCurrentCount = _currentCount / 2;
             _defaultScale = transform.localScale;
+
+            _changeTexture = GetComponent<ChangeTexture>();
         }
 
         public void Activate()
@@ -38,6 +44,12 @@ namespace DefaultNamespace.Tower
         {
             if (_isActivate)
             { 
+                
+                if (_currentCount <= _middleCurrentCount)
+                {
+                    _changeTexture.Change();
+                }
+                
                 if (_currentCount <= 0)
                 {
                     Debug.Log("floor deactivate");

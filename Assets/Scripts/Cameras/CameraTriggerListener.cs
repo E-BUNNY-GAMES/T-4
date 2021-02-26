@@ -6,9 +6,10 @@ namespace DefaultNamespace
 {
     public class CameraTriggerListener : MonoBehaviour
     {
-        
         public ShakeController shakeController;
         public RotateController rotateController;
+        public ChangeDepth changeDepth;
+        public GameObject directions;
         public MoveObj moveObj;
         
         public float timer;
@@ -25,7 +26,7 @@ namespace DefaultNamespace
                 shakeController.Stop();
                 moveObj.Stop();
 
-                StartCoroutine(Timer());                
+                directions.SetActive(true);           
             }
             else if(tag.Equals("finish action"))
             {
@@ -35,13 +36,15 @@ namespace DefaultNamespace
 
         }
 
-        IEnumerator Timer()
+        public IEnumerator Timer()
         {
             yield return new WaitForSeconds(timer);
             
+            changeDepth.ChangeToDeafult();
             moveObj.Activate();
             shakeController.Activate();
             rotateController.RotateToDefault();
+            directions.SetActive(false);
         }
     }
 }

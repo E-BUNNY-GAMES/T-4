@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -6,6 +7,8 @@ namespace DefaultNamespace.NavMesh
     public class NavmeshAgentController : MonoBehaviour
     {
         [SerializeField] private Transform target;
+        [SerializeField] private float timer;
+        
         
         private NavMeshAgent _navMeshAgent;
 
@@ -15,8 +18,9 @@ namespace DefaultNamespace.NavMesh
         }
 
 
-        private void Start()
+        private IEnumerator Start()
         {
+            yield return new WaitForSeconds(timer);
             Activate();
         }
 

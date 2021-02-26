@@ -16,9 +16,9 @@ MonoBehaviour:
   clientTokens:
   - 
   appIds:
-  - 0
+  - 755861435353863
   appLabels:
-  - App Name
+  - Giant Demolish FPS
   cookie: 1
   logging: 1
   status: 1

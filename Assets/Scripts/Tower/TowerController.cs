@@ -1,12 +1,13 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace DefaultNamespace.Tower
 {
     public class TowerController : MonoBehaviour
     {
         public Floor[] floors;
-        
+        public UnityEvent deactivateEvent;
         
         public void ActivateFloors()
         {
@@ -27,6 +28,7 @@ namespace DefaultNamespace.Tower
         public void DeactivateFloors()
         {
             Debug.Log("all floor deactivate");
+            deactivateEvent.Invoke();
             
             foreach (var floor in floors)
             {

@@ -1,3 +1,4 @@
+using System.Collections;
 using DefaultNamespace.Monster.Hands;
 using DG.Tweening;
 using UnityEngine;
@@ -10,41 +11,50 @@ namespace DefaultNamespace
         [SerializeField] private HandAnimatorController leftHandAnimatorController;
         [SerializeField] private HandAnimatorController rightHandAnimatorController;
 
+        [SerializeField] private CameraTriggerListener cameraTriggerListener;
         
-        private Vector3 _defaultRotation;
+        //private Vector3 _defaultRotation;
+        private HandAnimatorController _currentHandAnimatorController;
         private Vector3 _defaultPosition;
         
-        private HandAnimatorController _currentHandAnimatorController;
         private bool _lastLeft;
+        private bool _timer;
+        private bool _destroyActivate;
 
         private void Awake()
         {
-            _defaultRotation = transform.localRotation.eulerAngles;
+          //  _defaultRotation = transform.localRotation.eulerAngles;
             _defaultPosition = transform.localPosition;
         }
         
-        public void ActivateHand(bool left)
+        public void ActivateHand(string direction)
         {
-            //transform.localPosition = new Vector3(0, _defaultPosition.y, 0);
-            transform.DOLocalMove(new Vector3(0.25f, _defaultPosition.y, 0), 1f);
-
-            if (left)
+            switch (direction)
             {
-                //transform.localRotation = Quaternion.Euler(new Vector3(0,-90,0));
-                transform.DOLocalRotate(new Vector3(0, -90f, 0), 1.5f);
-                _currentHandAnimatorController = leftHandAnimatorController;
+                case "left":
+                    transform.DOLocalMove(new Vector3(0.25f, _defaultPosition.y, 0), 1f);
+                    transform.DOLocalRotate(new Vector3(0, -90f, 0), 1.5f);
+                    _currentHandAnimatorController = leftHandAnimatorController;
+                    break;
+                case "right":
+                    transform.DOLocalMove(new Vector3(0.25f, _defaultPosition.y, 0), 1f);
+                    transform.DOLocalRotate(new Vector3(0, 90f, 0), 1.5f);
+                    _currentHandAnimatorController = rightHandAnimatorController;
+                    break;
+                case "finish":
+                    transform.DOLocalMove(new Vector3(1f, 6f, 1), 1f);
+                    transform.DOLocalRotate(new Vector3(0, 37f, 0), 1.5f);
+                    _currentHandAnimatorController = rightHandAnimatorController;
+                    break;
             }
-            else
-            {
-                //transform.localRotation = Quaternion.Euler(new Vector3(0,90,0));
-                transform.DOLocalRotate(new Vector3(0, 90f, 0), 1.5f);
-                _currentHandAnimatorController = rightHandAnimatorController;
-            }
+            
         }
 
 
         public void FightHand(string direction)
         {
+            
+            
             switch (direction)
             {
                 case "up":
@@ -65,6 +75,34 @@ namespace DefaultNamespace
                     leftHandAnimatorController.ActivateFlankKick();
                     break;
             }
+            
+            leftHandAnimatorController.UpCapsuleHeight();
+            rightHandAnimatorController.UpCapsuleHeight();
+
+            if (!_destroyActivate)
+            {
+                _destroyActivate = true;
+                StartCoroutine(cameraTriggerListener.Timer());
+            }
+            
+        }
+
+        public void FinalFightHand()
+        {
+            _timer = true;
+                        
+            StartCoroutine(Timer());
+        }
+
+        IEnumerator Timer()
+        {
+            while (_timer)
+            {
+                ChangeHand();
+                _currentHandAnimatorController.ActivateDownKick();
+                
+                yield return new WaitForSeconds(1.4f);
+            }
         }
 
         private void ChangeHand()
@@ -84,6 +122,12 @@ namespace DefaultNamespace
 
         public void DestroyHand()
         {
+            _timer = false;
+            _destroyActivate = false;
+            
+            rightHandAnimatorController.ResetCapsuleHeight();
+            leftHandAnimatorController.ResetCapsuleHeight();
+            
             rightHandAnimatorController.ActivateIdle();
             leftHandAnimatorController.ActivateIdle();
             
