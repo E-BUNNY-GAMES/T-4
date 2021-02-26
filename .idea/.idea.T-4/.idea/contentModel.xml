@@ -393,6 +393,7 @@
               <e p="LegsAnimationController.cs" t="Include" />
               <e p="LegsController.cs" t="Include" />
             </e>
+            <e p="LocalRotateController.cs" t="Include" />
             <e p="MonsterHand.cs" t="Include" />
           </e>
           <e p="MoveObj.cs" t="Include" />

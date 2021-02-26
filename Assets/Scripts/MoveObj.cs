@@ -23,7 +23,7 @@ namespace DefaultNamespace
         {
             if (_isMoved)
             {
-                transform.position += Vector3.forward * speed * Time.deltaTime;
+                transform.localPosition += transform.forward * speed * Time.deltaTime;
             }
         }
 

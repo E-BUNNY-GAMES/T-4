@@ -27,12 +27,20 @@ namespace DefaultNamespace.NavMesh
 
         public void Activate()
         {
-            _navMeshAgent.SetDestination(target.position);
+            if (_navMeshAgent != null)
+            {
+                _navMeshAgent.SetDestination(target.position);    
+            }
+            
         }
 
         public void Deactivate()
         {
-            _navMeshAgent.ResetPath();
+            if (_navMeshAgent != null)
+            {
+                _navMeshAgent.ResetPath();    
+            }
+            
         }
 
 

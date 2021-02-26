@@ -76,8 +76,8 @@ namespace DefaultNamespace
                     break;
             }
             
-            leftHandAnimatorController.UpCapsuleHeight();
-            rightHandAnimatorController.UpCapsuleHeight();
+            leftHandAnimatorController.UpCapsule();
+            rightHandAnimatorController.UpCapsule();
 
             if (!_destroyActivate)
             {
