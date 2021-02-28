@@ -17,6 +17,12 @@ namespace DefaultNamespace.Monster.Legs
         {
             animator.SetBool("Move", false);    
         }
+
+        public void ActivateStomping()
+        {
+            animator.SetTrigger("stomping");
+        }
+        
     }
     
     

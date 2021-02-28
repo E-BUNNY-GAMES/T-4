@@ -13,7 +13,6 @@ namespace DefaultNamespace.Tower
         
         
         private int _currentCount;
-        private int _middleCurrentCount;
         private bool _isActivate;
         private bool _isAnimated;
         private Vector3 _defaultScale;
@@ -23,7 +22,6 @@ namespace DefaultNamespace.Tower
         private void Awake()
         {
             _currentCount = number * 3;
-            _middleCurrentCount = _currentCount / 2;
             _defaultScale = transform.localScale;
 
             _changeTexture = GetComponent<ChangeTexture>();
@@ -45,10 +43,7 @@ namespace DefaultNamespace.Tower
             if (_isActivate)
             { 
                 
-                if (_currentCount <= _middleCurrentCount)
-                {
-                    _changeTexture.Change();
-                }
+                _changeTexture.Change();
                 
                 if (_currentCount <= 0)
                 {

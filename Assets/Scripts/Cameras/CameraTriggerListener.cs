@@ -11,6 +11,8 @@ namespace DefaultNamespace
         public ChangeDepth changeDepth;
         public GameObject directions;
         public MoveObj moveObj;
+        public GameObject tapCanvas;
+        
         
         public float timer;
 
@@ -45,6 +47,7 @@ namespace DefaultNamespace
             shakeController.Activate();
             rotateController.RotateToDefault();
             directions.SetActive(false);
+            tapCanvas.SetActive(true);
         }
     }
 }
