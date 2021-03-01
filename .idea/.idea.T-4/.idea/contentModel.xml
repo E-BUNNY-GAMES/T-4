@@ -367,6 +367,7 @@
           <e p="ActionPositionTrigger.cs" t="Include" />
           <e p="Cameras" t="Include">
             <e p="CameraTriggerListener.cs" t="Include" />
+            <e p="MainCameraActivator.cs" t="Include" />
             <e p="RayCastController.cs" t="Include" />
             <e p="RotateController.cs" t="Include" />
             <e p="ShakeController.cs" t="Include" />
