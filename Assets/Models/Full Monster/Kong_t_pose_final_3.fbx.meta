@@ -1,0 +1,861 @@
+fileFormatVersion: 2
+guid: cd382023e6b766a47821c239ac63b619
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: d9dcfff504c7e56458e18379a0e952c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: 3ee59d07a9fff3c428c370b472f46189, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 17
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: kong_obj:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kong_obj:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Kong_t_pose_final_3(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:BodygeoGeometryGroup
+      parentName: Kong_t_pose_final_3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:Hips
+      parentName: Kong_t_pose_final_3(Clone)
+      position: {x: -0.00000012021529, y: 0.071483165, z: -0.00041980844}
+      rotation: {x: 0.0000001481112, y: 0.00000044084993, z: 0.000015159394, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:Spine
+      parentName: kong_obj:Hips
+      position: {x: -0, y: 0.009546988, z: -0.0020737706}
+      rotation: {x: -0.10674355, y: 0.000001179823, z: -0.000015119842, w: 0.9942866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:Spine1
+      parentName: kong_obj:Spine
+      position: {x: -1.3823576e-22, y: 0.011397897, z: -4.9855564e-11}
+      rotation: {x: -1.3877788e-17, y: -1.8645236e-13, z: 6.575272e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:Spine2
+      parentName: kong_obj:Spine1
+      position: {x: 9.215719e-23, y: 0.013026159, z: 1.1169421e-11}
+      rotation: {x: -1.3877788e-17, y: -6.3108872e-30, z: 6.3108872e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:Neck
+      parentName: kong_obj:Spine2
+      position: {x: 1.8431438e-22, y: 0.01465443, z: 0.0000000033224115}
+      rotation: {x: 0.32700333, y: 1.8856191e-13, z: -3.6097852e-12, w: 0.94502324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:Head
+      parentName: kong_obj:Neck
+      position: {x: 8.015958e-14, y: 0.012393112, z: -0.016599972}
+      rotation: {x: 0, y: 0, z: 7.623638e-30, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:HeadTop_End
+      parentName: kong_obj:Head
+      position: {x: 1.7510429e-13, y: 0.0144997565, z: -0.009709153}
+      rotation: {x: 2.7755576e-17, y: -7.137225e-21, z: 3.9969787e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftShoulder
+      parentName: kong_obj:Spine2
+      position: {x: -0.0092031, y: 0.016573621, z: 0.00044776668}
+      rotation: {x: 0.4316974, y: -0.55392265, z: 0.39657593, w: 0.5912146}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftArm
+      parentName: kong_obj:LeftShoulder
+      position: {x: 1.7688535e-11, y: 0.01944233, z: -9.038282e-11}
+      rotation: {x: 0.16186653, y: -0.13411537, z: 0.014514063, w: 0.9775488}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftForeArm
+      parentName: kong_obj:LeftArm
+      position: {x: -4.2093395e-11, y: 0.029915895, z: -4.238406e-10}
+      rotation: {x: -0.000000012300959, y: 0.012344865, z: -0.00000026817966, w: 0.9999238}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHand
+      parentName: kong_obj:LeftForeArm
+      position: {x: 2.6191116e-10, y: 0.03325029, z: 2.586108e-10}
+      rotation: {x: 0.00010936995, y: 0.022438968, z: 0.055742584, w: 0.998193}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandThumb1
+      parentName: kong_obj:LeftHand
+      position: {x: 0.0040915166, y: 0.0035107036, z: 0.001595221}
+      rotation: {x: 0.062991105, y: -0.03175119, z: -0.36350444, w: 0.92891794}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandThumb2
+      parentName: kong_obj:LeftHandThumb1
+      position: {x: 0.00036697756, y: 0.0044828462, z: 1.9603318e-10}
+      rotation: {x: 0.000042948104, y: 0.000678967, z: -0.018814096, w: 0.9998228}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandThumb3
+      parentName: kong_obj:LeftHandThumb2
+      position: {x: 0.00024908656, y: 0.0056486945, z: 1.01196005e-11}
+      rotation: {x: -0.00008345363, y: 0.0022248477, z: -0.08150373, w: 0.99667054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandThumb4
+      parentName: kong_obj:LeftHandThumb3
+      position: {x: -0.0006160652, y: 0.0051471684, z: -1.1170409e-10}
+      rotation: {x: 0.000000008547134, y: -6.938894e-18, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandIndex1
+      parentName: kong_obj:LeftHand
+      position: {x: 0.0056054182, y: 0.01704883, z: 0.0001434752}
+      rotation: {x: 0.0011310927, y: -0.0002275184, z: -0.060561653, w: 0.9981638}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandIndex2
+      parentName: kong_obj:LeftHandIndex1
+      position: {x: -0.00004504155, y: 0.0046549663, z: -1.7717224e-10}
+      rotation: {x: 0.0000020617358, y: -0.0004073126, z: 0.0044067805, w: 0.9999902}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandIndex3
+      parentName: kong_obj:LeftHandIndex2
+      position: {x: -0.0000039174347, y: 0.0045254547, z: 1.5280363e-10}
+      rotation: {x: 0.0000041550434, y: 0.0006788766, z: 0.0066519743, w: 0.99997765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandIndex4
+      parentName: kong_obj:LeftHandIndex3
+      position: {x: 0.0000489588, y: 0.00393553, z: 8.373665e-11}
+      rotation: {x: 5.2458173e-17, y: 3.469448e-18, z: 4.163336e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandMiddle1
+      parentName: kong_obj:LeftHand
+      position: {x: 0.0019227456, y: 0.01716927, z: 0.000039478888}
+      rotation: {x: 0.0011246451, y: -0.00036144763, z: -0.061873965, w: 0.9980833}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandMiddle2
+      parentName: kong_obj:LeftHandMiddle1
+      position: {x: -0.00006887496, y: 0.005594261, z: -3.8554815e-10}
+      rotation: {x: 0.0000042139195, y: -0.000635429, z: 0.0055647404, w: 0.9999843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandMiddle3
+      parentName: kong_obj:LeftHandMiddle2
+      position: {x: -0.0000061874653, y: 0.0051988107, z: 3.3229483e-10}
+      rotation: {x: 0.000008057355, y: 0.001110871, z: 0.0086740535, w: 0.9999618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandMiddle4
+      parentName: kong_obj:LeftHandMiddle3
+      position: {x: 0.00007506241, y: 0.004646058, z: 4.5288447e-11}
+      rotation: {x: -4.451179e-10, y: 2.7755576e-17, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandRing1
+      parentName: kong_obj:LeftHand
+      position: {x: -0.0019060938, y: 0.017438354, z: -0.0001975447}
+      rotation: {x: 0.0011978004, y: 0.0010424718, z: -0.0590826, w: 0.99825186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandRing2
+      parentName: kong_obj:LeftHandRing1
+      position: {x: -0.000036518726, y: 0.0054415185, z: 9.116511e-11}
+      rotation: {x: 0.00000083846305, y: -0.00023834118, z: 0.004090889, w: 0.9999916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandRing3
+      parentName: kong_obj:LeftHandRing2
+      position: {x: 0.000007266548, y: 0.0049890378, z: 1.1442684e-10}
+      rotation: {x: 0.0000011924049, y: 0.00023732215, z: 0.0025968621, w: 0.9999966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandRing4
+      parentName: kong_obj:LeftHandRing3
+      position: {x: 0.000029252198, y: 0.0043911156, z: -6.576131e-11}
+      rotation: {x: -4.061445e-17, y: 2.9490302e-17, z: -8.326673e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandPinky1
+      parentName: kong_obj:LeftHand
+      position: {x: -0.005622067, y: 0.016481372, z: 0.0000596776}
+      rotation: {x: 0.0011927588, y: 0.00093134894, z: -0.05855235, w: 0.9982832}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandPinky2
+      parentName: kong_obj:LeftHandPinky1
+      position: {x: -0.000026875086, y: 0.004750707, z: 2.891294e-10}
+      rotation: {x: 0.00000007133748, y: -0.00015011305, z: 0.003917462, w: 0.9999923}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandPinky3
+      parentName: kong_obj:LeftHandPinky2
+      position: {x: 0.000008963197, y: 0.004131203, z: 1.4021015e-10}
+      rotation: {x: 0.00000037529873, y: 0.00011855483, z: 0.0014608, w: 0.9999989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftHandPinky4
+      parentName: kong_obj:LeftHandPinky3
+      position: {x: 0.000017911456, y: 0.0034981351, z: 2.4898769e-11}
+      rotation: {x: -0.000000008505878, y: -3.8163916e-17, z: -1.38777845e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightShoulder
+      parentName: kong_obj:Spine2
+      position: {x: 0.0092031, y: 0.016586436, z: 0.00038878483}
+      rotation: {x: 0.42982846, y: 0.5558017, z: -0.39777175, w: 0.59000814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightArm
+      parentName: kong_obj:RightShoulder
+      position: {x: -1.7695331e-11, y: 0.01944233, z: -9.037909e-11}
+      rotation: {x: 0.16205683, y: 0.12895347, z: -0.012230138, w: 0.9782428}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightForeArm
+      parentName: kong_obj:RightArm
+      position: {x: 6.920364e-11, y: 0.029908903, z: -1.7748607e-10}
+      rotation: {x: -0.00000023755814, y: -0.01201248, z: -0.0000003009889, w: 0.9999279}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHand
+      parentName: kong_obj:RightForeArm
+      position: {x: -7.604533e-11, y: 0.03324372, z: 3.9088377e-12}
+      rotation: {x: 0.0027707282, y: -0.011382363, z: -0.058290616, w: 0.99823093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandThumb1
+      parentName: kong_obj:RightHand
+      position: {x: -0.004097355, y: 0.0036283256, z: 0.0016826829}
+      rotation: {x: 0.06020598, y: 0.023220615, z: 0.3542191, w: 0.93293357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandThumb2
+      parentName: kong_obj:RightHandThumb1
+      position: {x: -0.0004883137, y: 0.004554515, z: -1.9691703e-11}
+      rotation: {x: 0.00014116915, y: -0.0014580959, z: 0.0103389425, w: 0.9999455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandThumb3
+      parentName: kong_obj:RightHandThumb2
+      position: {x: -0.0004819962, y: 0.005582745, z: 5.5649027e-11}
+      rotation: {x: -0.00014629295, y: -0.0028435024, z: 0.13699338, w: 0.99056786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandThumb4
+      parentName: kong_obj:RightHandThumb3
+      position: {x: 0.00097030925, y: 0.005080138, z: 1.8896334e-10}
+      rotation: {x: 7.5173526e-17, y: 3.816392e-17, z: 2.7755574e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandIndex1
+      parentName: kong_obj:RightHand
+      position: {x: -0.005742395, y: 0.016944643, z: 0.000075674776}
+      rotation: {x: -0.002076305, y: -0.0005287122, z: 0.060517516, w: 0.99816483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandIndex2
+      parentName: kong_obj:RightHandIndex1
+      position: {x: 0.000020884154, y: 0.0047483994, z: 4.202745e-11}
+      rotation: {x: 0.00000021808128, y: 0.00012604303, z: -0.0021643988, w: 0.9999977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandIndex3
+      parentName: kong_obj:RightHandIndex2
+      position: {x: 0.00000028995245, y: 0.004553752, z: -1.196388e-10}
+      rotation: {x: 0.00000020831581, y: -0.00019536915, z: -0.0027607027, w: 0.9999962}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandIndex4
+      parentName: kong_obj:RightHandIndex3
+      position: {x: -0.000021173764, y: 0.0039015135, z: -4.1625446e-11}
+      rotation: {x: -0.0000000041351775, y: -3.469447e-17, z: 1.2490009e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandMiddle1
+      parentName: kong_obj:RightHand
+      position: {x: -0.0019814358, y: 0.016901975, z: -0.000071621645}
+      rotation: {x: -0.002117963, y: 0.00023235608, z: 0.06272871, w: 0.9980284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandMiddle2
+      parentName: kong_obj:RightHandMiddle1
+      position: {x: 0.000051364954, y: 0.00580874, z: 3.694893e-10}
+      rotation: {x: 0.0000025037898, y: 0.00041742742, z: -0.003414203, w: 0.9999941}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandMiddle3
+      parentName: kong_obj:RightHandMiddle2
+      position: {x: 0.000010526276, y: 0.0052441857, z: -1.9695513e-10}
+      rotation: {x: 0.0000055956143, y: -0.0009675932, z: -0.0076001254, w: 0.9999707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandMiddle4
+      parentName: kong_obj:RightHandMiddle3
+      position: {x: -0.00006189139, y: 0.0046909936, z: 2.2027224e-10}
+      rotation: {x: 1.1721602e-16, y: 1.0842022e-17, z: 6.9388935e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandRing1
+      parentName: kong_obj:RightHand
+      position: {x: 0.0020473758, y: 0.017086266, z: -0.00013140705}
+      rotation: {x: -0.0020828918, y: -0.00041799454, z: 0.06215916, w: 0.998064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandRing2
+      parentName: kong_obj:RightHandRing1
+      position: {x: 0.00004394591, y: 0.005722561, z: 2.2051371e-11}
+      rotation: {x: 0.0000017962045, y: 0.00037913866, z: -0.003830148, w: 0.9999926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandRing3
+      parentName: kong_obj:RightHandRing2
+      position: {x: 0.00000018641074, y: 0.005071556, z: -4.3145477e-11}
+      rotation: {x: 0.000003242515, y: -0.0005764753, z: -0.0048524397, w: 0.9999881}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandRing4
+      parentName: kong_obj:RightHandRing3
+      position: {x: -0.000044131935, y: 0.004570096, z: -1.439144e-10}
+      rotation: {x: 0.0000000051683804, y: 2.775558e-17, z: -1.387779e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandPinky1
+      parentName: kong_obj:RightHand
+      position: {x: 0.005676455, y: 0.016390443, z: 0.0000904325}
+      rotation: {x: -0.0020858482, y: -0.000369158, z: 0.061075944, w: 0.99813086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandPinky2
+      parentName: kong_obj:RightHandPinky1
+      position: {x: 0.000026442212, y: 0.00480064, z: -2.1033646e-10}
+      rotation: {x: 0.0000002646396, y: 0.00022014507, z: -0.0033449163, w: 0.9999944}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandPinky3
+      parentName: kong_obj:RightHandPinky2
+      position: {x: -0.0000049609575, y: 0.0042296383, z: -4.5764566e-11}
+      rotation: {x: 0.0000010598368, y: -0.00025584927, z: -0.0023767198, w: 0.99999714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightHandPinky4
+      parentName: kong_obj:RightHandPinky3
+      position: {x: -0.00002148094, y: 0.0036186178, z: 3.7739444e-11}
+      rotation: {x: -0.000000006110766, y: 3.1225023e-17, z: 1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftUpLeg
+      parentName: kong_obj:Hips
+      position: {x: -0.011066298, y: -0.005304835, z: 0.00028439474}
+      rotation: {x: -0.0006817779, y: 0.014764032, z: 0.99981725, w: 0.012123801}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftLeg
+      parentName: kong_obj:LeftUpLeg
+      position: {x: -3.5382974e-11, y: 0.031998586, z: 2.2247686e-11}
+      rotation: {x: -0.072809584, y: -0.0018545557, z: 0.027832074, w: 0.99695575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftFoot
+      parentName: kong_obj:LeftLeg
+      position: {x: -2.4948548e-11, y: 0.024663584, z: 4.192018e-11}
+      rotation: {x: 0.5629478, y: 0.037982922, z: -0.056807056, w: 0.8236626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftToeBase
+      parentName: kong_obj:LeftFoot
+      position: {x: -5.7072624e-11, y: 0.019943163, z: 4.7010046e-10}
+      rotation: {x: 0.2400263, y: 0.04954846, z: -0.012268052, w: 0.9694235}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:LeftToe_End
+      parentName: kong_obj:LeftToeBase
+      position: {x: 6.807126e-11, y: 0.009209361, z: 1.1064118e-11}
+      rotation: {x: 4.708811e-10, y: -0.0000000020713586, z: 1.0563583e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightUpLeg
+      parentName: kong_obj:Hips
+      position: {x: 0.011066298, y: -0.005304835, z: 0.00006809011}
+      rotation: {x: 0.001295574, y: 0.024276856, z: 0.9996316, w: -0.012068569}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightLeg
+      parentName: kong_obj:RightUpLeg
+      position: {x: -5.23037e-12, y: 0.03201477, z: 7.628776e-11}
+      rotation: {x: -0.090136655, y: 0.0023233446, z: -0.02773145, w: 0.99554056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightFoot
+      parentName: kong_obj:RightLeg
+      position: {x: -3.1097774e-11, y: 0.0247203, z: -1.4373036e-10}
+      rotation: {x: 0.57103807, y: -0.036490127, z: 0.056954436, w: 0.81813216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightToeBase
+      parentName: kong_obj:RightFoot
+      position: {x: 7.8151305e-11, y: 0.020102806, z: 5.456196e-11}
+      rotation: {x: 0.2379878, y: -0.051666416, z: 0.012678718, w: 0.9698101}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kong_obj:RightToe_End
+      parentName: kong_obj:RightToeBase
+      position: {x: 5.978145e-12, y: 0.009256272, z: 4.4931206e-13}
+      rotation: {x: 1.0737415e-10, y: 9.740836e-11, z: 1.8651963e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.17
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

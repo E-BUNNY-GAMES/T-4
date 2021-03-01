@@ -44,7 +44,7 @@ namespace DefaultNamespace
                     _currentHandAnimatorController = rightHandAnimatorController;
                     break;
                 case "finish":
-                    transform.DOLocalMove(new Vector3(1f, 6f, 1), 1f);
+                    transform.DOLocalMove(new Vector3(1f, 4f, -1), 1f);
                     transform.DOLocalRotate(new Vector3(0, 37f, 0), 1.5f);
                     _currentHandAnimatorController = rightHandAnimatorController;
                     break;

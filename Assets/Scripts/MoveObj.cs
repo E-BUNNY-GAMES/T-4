@@ -8,11 +8,6 @@ namespace DefaultNamespace
 
         private bool _isMoved;
 
-//        private void Awake()
-//        {
-//            Activate();
-//        }
-
         private void OnEnable()
         {
             Activate();

@@ -6,7 +6,7 @@ namespace Monster.Hands
 {
     public class HandSelector : MonoBehaviour
     {
-        [SerializeField] private Randomizer randomizer;
+        [SerializeField] private MonsterCreator monsterCreator;
         
         [SerializeField] private Mesh[] meshList;
         [SerializeField] private Material[] materialList;
@@ -21,7 +21,7 @@ namespace Monster.Hands
 
         private void Select()
         {
-            var randomNumber = randomizer.randomNumber;
+            var randomNumber = monsterCreator.randomNumber;
             
             foreach (var skinnedMeshRenderer in skinnedMeshRenderers)
             {

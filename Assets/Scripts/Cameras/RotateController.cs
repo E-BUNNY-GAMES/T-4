@@ -1,4 +1,5 @@
-using Bolt;
+
+using Cinemachine;
 using DefaultNamespace.Monster.Legs;
 using DG.Tweening;
 using UnityEngine;
@@ -11,7 +12,7 @@ namespace DefaultNamespace
         
         public HandsController handsController;
         public LegsAnimationController legsAnimationController;
-            
+        public CinemachineBrain cinemachineBrain;           
             
         private Vector3 _startRotatePosition;
 
@@ -19,6 +20,7 @@ namespace DefaultNamespace
         
         public void RotateTo(Vector3 endRotatePosition)
         {
+            cinemachineBrain.enabled = false;
             legsAnimationController.ActivateStayAnimation();
 
             _startRotatePosition = transform.rotation.eulerAngles;
@@ -29,7 +31,10 @@ namespace DefaultNamespace
         {   
             handsController.DestroyHand();
             legsAnimationController.ActivateMoveAnimation();
-            transform.DORotate(_startRotatePosition, rotateDuration);
+            transform.DORotate(_startRotatePosition, rotateDuration).OnComplete(() =>
+                {
+                    cinemachineBrain.enabled = true;
+                });
         }
 
     }

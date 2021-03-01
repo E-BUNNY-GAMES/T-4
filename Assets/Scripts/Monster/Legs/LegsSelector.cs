@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 namespace DefaultNamespace.Monster.Legs
 {
     public class LegsSelector : MonoBehaviour
     {
-        [SerializeField] private Randomizer randomizer;
+        [SerializeField] private MonsterCreator monsterCreator;
         
         [SerializeField] private Mesh[] meshList;
         [SerializeField] private Material[] materialList;
@@ -21,7 +22,7 @@ namespace DefaultNamespace.Monster.Legs
         
         private void Select()
         {
-            var randomNumber = randomizer.randomNumber;
+            var randomNumber = monsterCreator.randomNumber;
             
             foreach (var skinnedMeshRenderer in skinnedMeshRenderers)
             {

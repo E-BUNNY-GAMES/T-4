@@ -397,8 +397,8 @@
               <e p="LegsSelector.cs" t="Include" />
             </e>
             <e p="LocalRotateController.cs" t="Include" />
+            <e p="MonsterCreator.cs" t="Include" />
             <e p="MonsterHand.cs" t="Include" />
-            <e p="Randomizer.cs" t="Include" />
           </e>
           <e p="MoveObj.cs" t="Include" />
           <e p="NavMesh" t="Include">
