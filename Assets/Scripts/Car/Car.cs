@@ -1,8 +1,10 @@
 using System.Collections.Generic;
+using Bolt;
 using DefaultNamespace.NavMesh;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using Sequence = DG.Tweening.Sequence;
 
 
 namespace DefaultNamespace
@@ -12,9 +14,12 @@ namespace DefaultNamespace
         [SerializeField] private NavmeshAgentController navmeshAgentController;
         [SerializeField] private GameObject fireParticle;
         [SerializeField] private GameObject smashParticle;
+        
         [SerializeField] private List<GameObject> wheels;
         [SerializeField] private bool impact;
 
+        
+        private GameObject _allUi;
         private CapsuleCollider _capsuleCollider;
         private ChangeTexture _changeTexture;
         private Sequence _sequence;
@@ -25,6 +30,8 @@ namespace DefaultNamespace
         private void Awake()
         {
             _changeTexture = GetComponent<ChangeTexture>();
+            _allUi = GameObject.Find("All_UI");
+            
         }
 
         private void OnTriggerEnter(Collider other)
@@ -54,6 +61,8 @@ namespace DefaultNamespace
             Debug.Log("destory car");
 
 
+            CustomEvent.Trigger(_allUi, "bar+", 0.01f);
+            
             transform.tag = "Destroy bal";
                 
             smashParticle.SetActive(true);

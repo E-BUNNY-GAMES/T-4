@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Bolt;
 using DefaultNamespace.NavMesh;
 using UnityEngine;
 
@@ -7,11 +8,17 @@ namespace DefaultNamespace.Man
     public class Man : MonoBehaviour
     {
         [SerializeField] private NavmeshAgentController navmeshAgentController;
-        [SerializeField] private List<GameObject> bodyParts;
+        
+        private GameObject _allUi;
         
         private bool _isEnter;
-        
-        
+
+
+        private void Awake()
+        {
+            _allUi = GameObject.Find("All_UI");
+        }
+
         private void OnTriggerEnter(Collider other)
         {
             Debug.Log(other.name);
@@ -28,7 +35,8 @@ namespace DefaultNamespace.Man
                 
 
                 transform.parent.gameObject.SetActive(false);
-                //bodyPart.SetActive(false);
+                
+                CustomEvent.Trigger(_allUi, "bar+",0.01f);               
             }
         }
     }

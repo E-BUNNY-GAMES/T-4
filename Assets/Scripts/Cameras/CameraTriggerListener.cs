@@ -1,4 +1,5 @@
 using System.Collections;
+using Bolt;
 using UnityEngine;
 
 
@@ -12,7 +13,6 @@ namespace DefaultNamespace
         public GameObject directions;
         public MoveObj moveObj;
         public GameObject tapCanvas;
-        
         
         public float timer;
 
@@ -41,6 +41,8 @@ namespace DefaultNamespace
         public IEnumerator Timer()
         {
             yield return new WaitForSeconds(timer);
+            
+            
             
             changeDepth.ChangeToDeafult();
             moveObj.Activate();

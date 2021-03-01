@@ -388,13 +388,16 @@
             <e p="Hands" t="Include">
               <e p="HandAnimatorController.cs" t="Include" />
               <e p="HandsController.cs" t="Include" />
+              <e p="HandSelector.cs" t="Include" />
             </e>
             <e p="Legs" t="Include">
               <e p="LegsAnimationController.cs" t="Include" />
               <e p="LegsController.cs" t="Include" />
+              <e p="LegsSelector.cs" t="Include" />
             </e>
             <e p="LocalRotateController.cs" t="Include" />
             <e p="MonsterHand.cs" t="Include" />
+            <e p="Randomizer.cs" t="Include" />
           </e>
           <e p="MoveObj.cs" t="Include" />
           <e p="NavMesh" t="Include">

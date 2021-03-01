@@ -1,4 +1,5 @@
 using System.Collections;
+using Bolt;
 using DefaultNamespace.Monster.Hands;
 using DG.Tweening;
 using UnityEngine;
@@ -10,12 +11,12 @@ namespace DefaultNamespace
     {
         [SerializeField] private HandAnimatorController leftHandAnimatorController;
         [SerializeField] private HandAnimatorController rightHandAnimatorController;
-
         [SerializeField] private CameraTriggerListener cameraTriggerListener;
+        [SerializeField] private GameObject allUi;
         
-        //private Vector3 _defaultRotation;
         private HandAnimatorController _currentHandAnimatorController;
         private Vector3 _defaultPosition;
+        private Vector3 _defaultRotation;
         
         private bool _lastLeft;
         private bool _timer;
@@ -23,12 +24,13 @@ namespace DefaultNamespace
 
         private void Awake()
         {
-          //  _defaultRotation = transform.localRotation.eulerAngles;
             _defaultPosition = transform.localPosition;
         }
         
         public void ActivateHand(string direction)
         {
+            _defaultRotation = transform.localRotation.eulerAngles;
+            
             switch (direction)
             {
                 case "left":
@@ -53,7 +55,7 @@ namespace DefaultNamespace
 
         public void FightHand(string direction)
         {
-            
+            CustomEvent.Trigger(allUi, "bar+", 0.04f);
             
             switch (direction)
             {
@@ -89,8 +91,7 @@ namespace DefaultNamespace
 
         public void FinalFightHand()
         {
-            _timer = true;
-                        
+            _timer = true;            
             StartCoroutine(Timer());
         }
 
@@ -130,8 +131,8 @@ namespace DefaultNamespace
             
             rightHandAnimatorController.ActivateIdle();
             leftHandAnimatorController.ActivateIdle();
-            
-            transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+
+            transform.localRotation = Quaternion.Euler(_defaultRotation);
             transform.localPosition = _defaultPosition;
         }
 

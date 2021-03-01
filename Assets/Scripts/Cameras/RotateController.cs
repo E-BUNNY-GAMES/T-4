@@ -1,3 +1,4 @@
+using Bolt;
 using DefaultNamespace.Monster.Legs;
 using DG.Tweening;
 using UnityEngine;
@@ -16,21 +17,16 @@ namespace DefaultNamespace
 
         
         
-        private void Awake()
-        {
-            _startRotatePosition = transform.rotation.eulerAngles;
-        }
-
-        
-        
         public void RotateTo(Vector3 endRotatePosition)
         {
             legsAnimationController.ActivateStayAnimation();
+
+            _startRotatePosition = transform.rotation.eulerAngles;
             transform.DORotate(endRotatePosition, rotateDuration);
         }
 
         public void RotateToDefault()
-        {
+        {   
             handsController.DestroyHand();
             legsAnimationController.ActivateMoveAnimation();
             transform.DORotate(_startRotatePosition, rotateDuration);
