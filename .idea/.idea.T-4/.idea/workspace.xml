@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564f6796-15d0-4d1a-b14c-9c2634515217" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.T-4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.T-4/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.T-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.T-4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Godzilla__Godzilla_D_tga.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Godzilla__Godzilla_D_tga.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActionPositionTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActionPositionTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cameras/CameraTriggerListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cameras/CameraTriggerListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cameras/RayCastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cameras/RayCastController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cameras/RotateController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cameras/RotateController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyObj.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyObj.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/House/FullHouseTriggerListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/House/FullHouseTriggerListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Man/Man.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Man/Man.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandAnimatorController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandAnimatorController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Monster/Hands/HandsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Monster/Legs/LegsSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Monster/Legs/LegsSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Monster/Randomizer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Monster/Randomizer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveObj.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveObj.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Particls/Dust.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Particls/Dust.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Particls/SPLASH.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Particls/SPLASH.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Particls/shokwave.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Particls/shokwave.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Lean Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Lean Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Lean Main/NavMesh-Navmesh Controller.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Lean Main/NavMesh-Navmesh Controller.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -467,12 +445,12 @@
       <workItem from="1614548706613" duration="6910000" />
       <workItem from="1614589661507" duration="2237000" />
       <workItem from="1614597891319" duration="1206000" />
-      <workItem from="1614615634138" duration="5648000" />
+      <workItem from="1614615634138" duration="6033000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119346000" />
+    <option name="totallyTimeSpent" value="119731000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
