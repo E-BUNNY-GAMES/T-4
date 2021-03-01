@@ -8,6 +8,8 @@ namespace DefaultNamespace.Man
     public class Man : MonoBehaviour
     {
         [SerializeField] private NavmeshAgentController navmeshAgentController;
+        [SerializeField] private GameObject deadParticle;
+        
         
         private GameObject _allUi;
         
@@ -32,8 +34,9 @@ namespace DefaultNamespace.Man
                 {
                     navmeshAgentController.Deactivate();    
                 }
-                
 
+                Instantiate(deadParticle, new Vector3(transform.position.x, 41.5f, transform.position.z), Quaternion.Euler(Vector3.zero));
+                
                 transform.parent.gameObject.SetActive(false);
                 
                 CustomEvent.Trigger(_allUi, "bar+",0.01f);               

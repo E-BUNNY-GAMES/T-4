@@ -71,7 +71,7 @@ namespace DefaultNamespace
 
             if (navmeshAgentController)
             {
-                navmeshAgentController.Deactivate();    
+                navmeshAgentController.Deactivate();
             }
             _changeTexture.Change();
 
@@ -79,6 +79,10 @@ namespace DefaultNamespace
             {
                 _sequence.Join(transform.DOLocalJump(new Vector3(0, 0, -20), 2f, 0, 1f).SetEase(Ease.Linear));
                 _sequence.Join(transform.DOLocalRotate(new Vector3(360f, 0, 0), 1f, RotateMode.LocalAxisAdd));
+            }
+            else
+            {
+                transform.DOLocalJump(transform.localPosition, 2f, 0, 1f);
             }
 
             fireParticle.SetActive(true);
