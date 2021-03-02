@@ -982,8 +982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteList:
-  - {fileID: 21300000, guid: 18b1ae5f86159c74298eae17d6f61f8c, type: 3}
-  - {fileID: 21300000, guid: 8738f7e5990c94b4c92a7005a4aff618, type: 3}
+  - {fileID: 21300000, guid: 83d3054cb2353e64c8d7c696b4e1b635, type: 3}
   spriteRendererList:
   - {fileID: 7762898433374411880}
   - {fileID: 6074695123746406494}
@@ -1367,7 +1366,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteList:
-  - {fileID: 21300000, guid: 83d3054cb2353e64c8d7c696b4e1b635, type: 3}
   - {fileID: 21300000, guid: 8dae60972ace1d74c87bc2b840a1dcc7, type: 3}
   spriteRendererList:
   - {fileID: 3149953286935025470}
